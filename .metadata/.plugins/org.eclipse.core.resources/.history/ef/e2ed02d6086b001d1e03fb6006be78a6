@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_GPLiABB8EeiZiLgDoQc00Q" name="com.example.businessobjectmodel">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GPLiARB8EeiZiLgDoQc00Q" source="model.metadata">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GPLiAhB8EeiZiLgDoQc00Q" key="author" value="ideshpan"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GPLiAxB8EeiZiLgDoQc00Q" key="created" value="1518498581536"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GPLiBBB8EeiZiLgDoQc00Q" key="version" value="1000"/>
+    </eAnnotations>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_N2qAECn7Ee2YxrlKlGfE5Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N2qnICn7Ee2YxrlKlGfE5Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://GLOBALDATA_PROFILES/BOMGlobalData.profile.uml#_-r7KEXyPEeCumvZ6xHSUiw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://GLOBALDATA_PROFILES/BOMGlobalData.profile.uml#_20kHsWs1EeC_hvle0zpSaA?BOM%20Global%20Data%20Profile?"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ObSmUEupEe2OWYMTqsBzTQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ObSmUUupEe2OWYMTqsBzTQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://BOM_TYPES/PrimitiveTypeFacets.profile.uml#_8TmTUstlEdy7K9XeCH7Hrw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://BOM_TYPES/PrimitiveTypeFacets.profile.uml#_3A574HcJEdytQ9AWEvOuug?PrimitiveTypeFacets?"/>
+    </profileApplication>
+  </uml:Model>
+  <notation:Diagram xmi:id="_GPgSIBB8EeiZiLgDoQc00Q" type="Business Object Model" element="_GPLiABB8EeiZiLgDoQc00Q?com.example.businessobjectmodel?" name="BusinessObjectModel.bom" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_GPg5MBB8EeiZiLgDoQc00Q"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_GPg5MRB8EeiZiLgDoQc00Q"/>
+  </notation:Diagram>
+</xmi:XMI>

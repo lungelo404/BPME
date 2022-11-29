@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rsd:Service xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:rsd="http://com.tibco.xpd/rsd" xmi:id="_h-XDoGTfEe2NNMoSeP-FXw" name="TestProjectRest-Service">
+  <resources xmi:id="_h-XDoWTfEe2NNMoSeP-FXw" name="Resource1">
+    <methods xmi:id="_h-XDomTfEe2NNMoSeP-FXw" name="Method1">
+      <request xmi:id="_h-XDo2TfEe2NNMoSeP-FXw"/>
+      <response xmi:id="_h-XDpGTfEe2NNMoSeP-FXw"/>
+    </methods>
+  </resources>
+</rsd:Service>
