@@ -6585,7 +6585,7 @@ result;</form:script>
         </form:propertySet>
         <form:label>Textinput 74</form:label>
         <form:hint></form:hint>
-        <form:visible>false</form:visible>
+        <form:visible>true</form:visible>
         <form:enabled>true</form:enabled>
         <form:required>false</form:required>
       </form:control>
