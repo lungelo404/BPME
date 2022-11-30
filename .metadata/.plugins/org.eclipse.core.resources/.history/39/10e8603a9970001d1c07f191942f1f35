@@ -2434,11 +2434,11 @@ pane.TechnicalInfo_serviceIPDetails.value.push(record);</form:script>
           <form:enabled>true</form:enabled>
           <form:required>false</form:required>
         </form:control>
-        <form:pane generated="true" generatorSource="com.sfc.fosImpl.swapTariff_pageflow.xpdl#_DP15YHiCEeiaDfAHZcigjg?p=com.sfc.fosImpl.swapTariff.v02%26s=Process%20Packages%26t=xpdl2%3aFormalParameter%26q=comsfcfosImplswapTariff_pageflow%3a%3acomsfcfosImplswapTariff_pageflowProcess%26n=OldServiceRequest?" syncFlags="2113536" styleClass="vPaneBorderMain" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.horizontal" dataType="uml:Class com.sfc.fosImpl.dataModel.bom#_tNB9IGrpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aClass%26q=com.sfc.fosImpl.dataModel%26n=ServiceRequest?" name="pane.OldServiceRequest" paneType="com.tibco.forms.panes.horizontal">
+        <form:pane generated="true" generatorSource="com.sfc.fosImpl.swapTariff_pageflow.xpdl#_DP15YHiCEeiaDfAHZcigjg?p=com.sfc.fosImpl.swapTariff.v02%26s=Process%20Packages%26t=xpdl2%3aFormalParameter%26q=comsfcfosImplswapTariff_pageflow%3a%3acomsfcfosImplswapTariff_pageflowProcess%26n=OldServiceRequest?" syncFlags="2097152" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.horizontal" dataType="uml:Class com.sfc.fosImpl.dataModel.bom#_tNB9IGrpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aClass%26q=com.sfc.fosImpl.dataModel%26n=ServiceRequest?" name="pane.OldServiceRequest" paneType="com.tibco.forms.panes.horizontal">
           <form:label>OldServiceRequest</form:label>
           <form:hint></form:hint>
           <form:visible>true</form:visible>
-          <form:enabled>false</form:enabled>
+          <form:enabled>true</form:enabled>
           <form:labelProperties visible="false"/>
           <form:defaults>
             <form:labelProperties position="top"/>
@@ -6585,7 +6585,7 @@ result;</form:script>
         </form:propertySet>
         <form:label>Textinput 74</form:label>
         <form:hint></form:hint>
-        <form:visible>false</form:visible>
+        <form:visible>true</form:visible>
         <form:enabled>true</form:enabled>
         <form:required>false</form:required>
       </form:control>

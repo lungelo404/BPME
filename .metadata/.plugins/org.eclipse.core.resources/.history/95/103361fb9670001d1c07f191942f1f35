@@ -2068,46 +2068,6 @@ pane.TechnicalInfo_serviceIPDetails.value.push(record);</form:script>
       <form:source target="data.EquipmentArray" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.EquipmentArray.value"/>
       <form:destination target="control.textinput78" feature="http://www.tibco.com/forms/model/elemtypes#//ChoicePropertySet/choiceValues" data="form.control.textinput78.choiceValues"/>
     </form:binding>
-    <form:binding direction="sourceToDest" name="_nadSoHCVEe2f3ugktJnfoA">
-      <form:source target="data.PortCapacity" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.PortCapacity.value"/>
-      <form:destination target="control.textinput84" feature="http://www.tibco.com/forms/model/elemtypes#//ChoicePropertySet/choiceLabels" data="form.control.textinput84.choiceLabels"/>
-    </form:binding>
-    <form:binding direction="sourceToDest" name="_synqIHCVEe2f3ugktJnfoA">
-      <form:source target="data.PortCapacity" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.PortCapacity.value"/>
-      <form:destination target="control.textinput84" feature="http://www.tibco.com/forms/model/elemtypes#//ChoicePropertySet/choiceValues" data="form.control.textinput84.choiceValues"/>
-    </form:binding>
-    <form:binding direction="sourceToDest" name="_00UPsHCVEe2f3ugktJnfoA">
-      <form:source target="data.PortTypeArray" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.PortTypeArray.value"/>
-      <form:destination target="control.TechnicalInfo_management_IP_Info_port_Type" feature="http://www.tibco.com/forms/model/elemtypes#//ChoicePropertySet/choiceLabels" data="form.control.TechnicalInfo_management_IP_Info_port_Type.choiceLabels"/>
-    </form:binding>
-    <form:binding direction="sourceToDest" name="_60qBgHCVEe2f3ugktJnfoA">
-      <form:source target="data.PortTypeArray" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.PortTypeArray.value"/>
-      <form:destination target="control.TechnicalInfo_management_IP_Info_port_Type" feature="http://www.tibco.com/forms/model/elemtypes#//ChoicePropertySet/choiceValues" data="form.control.TechnicalInfo_management_IP_Info_port_Type.choiceValues"/>
-    </form:binding>
-    <form:binding direction="sourceToDest" name="_Ev7-4HCWEe2f3ugktJnfoA">
-      <form:source target="data.PortNumberArray" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.PortNumberArray.value"/>
-      <form:destination target="control.textarea456" feature="http://www.tibco.com/forms/model/elemtypes#//ChoicePropertySet/choiceLabels" data="form.control.textarea456.choiceLabels"/>
-    </form:binding>
-    <form:binding direction="sourceToDest" name="_OkAhAHCWEe2f3ugktJnfoA">
-      <form:source target="data.PortNumberArray" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.PortNumberArray.value"/>
-      <form:destination target="control.textarea456" feature="http://www.tibco.com/forms/model/elemtypes#//ChoicePropertySet/choiceValues" data="form.control.textarea456.choiceValues"/>
-    </form:binding>
-    <form:binding direction="sourceToDest" name="_ZewXUHCWEe2f3ugktJnfoA">
-      <form:source target="data.AggregationPointsArray" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.AggregationPointsArray.value"/>
-      <form:destination target="control.textarea451" feature="http://www.tibco.com/forms/model/elemtypes#//ChoicePropertySet/choiceLabels" data="form.control.textarea451.choiceLabels"/>
-    </form:binding>
-    <form:binding direction="sourceToDest" name="_i1y_MHCWEe2f3ugktJnfoA">
-      <form:source target="data.AggregationPointsArray" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.AggregationPointsArray.value"/>
-      <form:destination target="control.textarea451" feature="http://www.tibco.com/forms/model/elemtypes#//ChoicePropertySet/choiceValues" data="form.control.textarea451.choiceValues"/>
-    </form:binding>
-    <form:binding direction="sourceToDest" name="_uRm7MHCWEe2f3ugktJnfoA">
-      <form:source target="data.Carrier_Eq_Type" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.Carrier_Eq_Type.value"/>
-      <form:destination target="control.TechnicalInfo_management_IP_Info_carrierEquipmentType" feature="http://www.tibco.com/forms/model/elemtypes#//ChoicePropertySet/choiceLabels" data="form.control.TechnicalInfo_management_IP_Info_carrierEquipmentType.choiceLabels"/>
-    </form:binding>
-    <form:binding direction="sourceToDest" name="_3CQ4gHCWEe2f3ugktJnfoA">
-      <form:source target="data.Carrier_Eq_Type" feature="http://www.tibco.com/forms/model/form#//Datum/value" data="form.data.Carrier_Eq_Type.value"/>
-      <form:destination target="control.TechnicalInfo_management_IP_Info_carrierEquipmentType" feature="http://www.tibco.com/forms/model/elemtypes#//ChoicePropertySet/choiceValues" data="form.control.TechnicalInfo_management_IP_Info_carrierEquipmentType.choiceValues"/>
-    </form:binding>
   </form:bindings>
   <form:defaults>
     <form:labelProperties position="top"/>
@@ -2434,64 +2394,6 @@ pane.TechnicalInfo_serviceIPDetails.value.push(record);</form:script>
           <form:enabled>true</form:enabled>
           <form:required>false</form:required>
         </form:control>
-        <form:pane generated="true" generatorSource="com.sfc.fosImpl.swapTariff_pageflow.xpdl#_DP15YHiCEeiaDfAHZcigjg?p=com.sfc.fosImpl.swapTariff.v02%26s=Process%20Packages%26t=xpdl2%3aFormalParameter%26q=comsfcfosImplswapTariff_pageflow%3a%3acomsfcfosImplswapTariff_pageflowProcess%26n=OldServiceRequest?" syncFlags="2113536" styleClass="vPaneBorderMain" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.horizontal" dataType="uml:Class com.sfc.fosImpl.dataModel.bom#_tNB9IGrpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aClass%26q=com.sfc.fosImpl.dataModel%26n=ServiceRequest?" name="pane.OldServiceRequest" paneType="com.tibco.forms.panes.horizontal">
-          <form:label>OldServiceRequest</form:label>
-          <form:hint></form:hint>
-          <form:visible>true</form:visible>
-          <form:enabled>false</form:enabled>
-          <form:labelProperties visible="false"/>
-          <form:defaults>
-            <form:labelProperties position="top"/>
-          </form:defaults>
-          <form:control elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.label" controlType="com.tibco.forms.controls.label" name="control.label11">
-            <form:label>Label 11</form:label>
-            <form:visible>true</form:visible>
-            <form:enabled>true</form:enabled>
-            <form:labelProperties visible="false"/>
-            <form:required>false</form:required>
-          </form:control>
-          <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_tNB9IWrpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aServiceRequest%26n=bandwidthupdown?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.OldServiceRequest_bandwidthupdown">
-            <form:propertySet xsi:type="et:TextPropertySet">
-              <et:maxLength>50</et:maxLength>
-            </form:propertySet>
-            <form:label>Bandwidth(up/down)</form:label>
-            <form:hint></form:hint>
-            <form:visible>true</form:visible>
-            <form:enabled>true</form:enabled>
-            <form:required>false</form:required>
-          </form:control>
-          <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_tNB9JGrpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aServiceRequest%26n=serviceType?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.OldServiceRequest_serviceType">
-            <form:propertySet xsi:type="et:TextPropertySet">
-              <et:maxLength>50</et:maxLength>
-            </form:propertySet>
-            <form:label>ServiceType</form:label>
-            <form:hint></form:hint>
-            <form:visible>true</form:visible>
-            <form:enabled>true</form:enabled>
-            <form:required>false</form:required>
-          </form:control>
-          <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_tNB9J2rpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aServiceRequest%26n=technology?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.OldServiceRequest_technology">
-            <form:propertySet xsi:type="et:TextPropertySet">
-              <et:maxLength>50</et:maxLength>
-            </form:propertySet>
-            <form:label>Technology</form:label>
-            <form:hint></form:hint>
-            <form:visible>true</form:visible>
-            <form:enabled>true</form:enabled>
-            <form:required>false</form:required>
-          </form:control>
-          <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_tNB9KmrpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aServiceRequest%26n=serviceStatus?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.OldServiceRequest_serviceStatus">
-            <form:propertySet xsi:type="et:TextPropertySet">
-              <et:displayLength>40</et:displayLength>
-              <et:maxLength>50</et:maxLength>
-            </form:propertySet>
-            <form:label>ServiceStatus</form:label>
-            <form:hint></form:hint>
-            <form:visible>false</form:visible>
-            <form:enabled>true</form:enabled>
-            <form:required>false</form:required>
-          </form:control>
-        </form:pane>
         <form:pane elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.vertical" name="pane.pane6" paneType="com.tibco.forms.panes.vertical">
           <form:label>Pane 6</form:label>
           <form:visible>true</form:visible>
@@ -2930,8 +2832,10 @@ false;&#xD;
                 <form:enabled>true</form:enabled>
                 <form:required>false</form:required>
               </form:control>
-              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_tK-acFp5EeiX_Mb7qrf0MA?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aDeviceRequest%26n=deviceDescription?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.textarea449">
-                <form:propertySet xsi:type="et:TextPropertySet">
+              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_tK-acFp5EeiX_Mb7qrf0MA?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aDeviceRequest%26n=deviceDescription?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textarea" controlType="com.tibco.forms.controls.textarea" name="control.textarea449">
+                <form:propertySet xsi:type="et:TextAreaPropertySet">
+                  <et:rows>10</et:rows>
+                  <et:cols>25</et:cols>
                   <et:maxLength>100</et:maxLength>
                 </form:propertySet>
                 <form:label>Device Description</form:label>
@@ -2984,8 +2888,10 @@ false;&#xD;
                 <form:enabled>true</form:enabled>
                 <form:required>false</form:required>
               </form:control>
-              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_VdmFM2DGEeiKHe8PzgqrqQ?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aDeviceRequest%26n=SFC_Tag_Number?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.TechnicalInfo_deviceRequest_SFC_Tag_Number">
-                <form:propertySet xsi:type="et:TextPropertySet">
+              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_VdmFM2DGEeiKHe8PzgqrqQ?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aDeviceRequest%26n=SFC_Tag_Number?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textarea" controlType="com.tibco.forms.controls.textarea" name="control.TechnicalInfo_deviceRequest_SFC_Tag_Number">
+                <form:propertySet xsi:type="et:TextAreaPropertySet">
+                  <et:rows>10</et:rows>
+                  <et:cols>25</et:cols>
                   <et:maxLength>200</et:maxLength>
                 </form:propertySet>
                 <form:label>SFC_Tag_Number</form:label>
@@ -2994,8 +2900,10 @@ false;&#xD;
                 <form:enabled>true</form:enabled>
                 <form:required>false</form:required>
               </form:control>
-              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_VdmFNmDGEeiKHe8PzgqrqQ?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aDeviceRequest%26n=serial_Number?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.TechnicalInfo_deviceRequest_serial_Number">
-                <form:propertySet xsi:type="et:TextPropertySet">
+              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_VdmFNmDGEeiKHe8PzgqrqQ?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aDeviceRequest%26n=serial_Number?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textarea" controlType="com.tibco.forms.controls.textarea" name="control.TechnicalInfo_deviceRequest_serial_Number">
+                <form:propertySet xsi:type="et:TextAreaPropertySet">
+                  <et:rows>10</et:rows>
+                  <et:cols>25</et:cols>
                   <et:maxLength>200</et:maxLength>
                 </form:propertySet>
                 <form:label>Serial_Number</form:label>
@@ -3004,8 +2912,10 @@ false;&#xD;
                 <form:enabled>true</form:enabled>
                 <form:required>false</form:required>
               </form:control>
-              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_VdmFOWDGEeiKHe8PzgqrqQ?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aDeviceRequest%26n=IMEI?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.TechnicalInfo_deviceRequest_IMEI">
-                <form:propertySet xsi:type="et:TextPropertySet">
+              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_VdmFOWDGEeiKHe8PzgqrqQ?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aDeviceRequest%26n=IMEI?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textarea" controlType="com.tibco.forms.controls.textarea" name="control.TechnicalInfo_deviceRequest_IMEI">
+                <form:propertySet xsi:type="et:TextAreaPropertySet">
+                  <et:rows>10</et:rows>
+                  <et:cols>25</et:cols>
                   <et:maxLength>200</et:maxLength>
                 </form:propertySet>
                 <form:label>IMEI</form:label>
@@ -3133,7 +3043,7 @@ result;</form:script>
                 <form:required>false</form:required>
               </form:control>
             </form:pane>
-            <form:pane generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_SqFjYFjREei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aTechnicalInformation%26n=management_IP_Info?" syncFlags="2949120" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.grid" dataType="uml:Class com.sfc.fosImpl.dataModel.bom#_65Uc4FjQEei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aClass%26q=com.sfc.fosImpl.dataModel%26n=Management_IP_List?" name="pane.pane34" paneType="com.tibco.forms.panes.grid">
+            <form:pane generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_SqFjYFjREei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aTechnicalInformation%26n=management_IP_Info?" syncFlags="327680" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.grid" dataType="uml:Class com.sfc.fosImpl.dataModel.bom#_65Uc4FjQEei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aClass%26q=com.sfc.fosImpl.dataModel%26n=Management_IP_List?" name="pane.pane34" paneType="com.tibco.forms.panes.grid">
               <form:propertySet xsi:type="et:GridPanePropertySet">
                 <et:showNavigator>false</et:showNavigator>
                 <et:editable>true</et:editable>
@@ -3176,8 +3086,10 @@ result;</form:script>
                 </form:validation>
                 <form:required>false</form:required>
               </form:control>
-              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#__DcT8FjQEei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=carrier_VLAN?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.textarea452">
-                <form:propertySet xsi:type="et:TextPropertySet">
+              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#__DcT8FjQEei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=carrier_VLAN?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textarea" controlType="com.tibco.forms.controls.textarea" name="control.textarea452">
+                <form:propertySet xsi:type="et:TextAreaPropertySet">
+                  <et:rows>10</et:rows>
+                  <et:cols>25</et:cols>
                   <et:maxLength>200</et:maxLength>
                 </form:propertySet>
                 <form:label>Carrier_VLAN</form:label>
@@ -3197,58 +3109,50 @@ result;</form:script>
                 <form:enabled>true</form:enabled>
                 <form:required>false</form:required>
               </form:control>
-              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_TUiScI1yEei91pCMJTTl9w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=carrierEquipmentType?" syncFlags="524288" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.optionlist" controlType="com.tibco.forms.controls.optionlist" name="control.TechnicalInfo_management_IP_Info_carrierEquipmentType">
-                <form:propertySet xsi:type="et:MultiChoicePropertySet">
-                  <et:choiceType>bindings</et:choiceType>
-                </form:propertySet>
+              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_TUiScI1yEei91pCMJTTl9w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=carrierEquipmentType?" syncFlags="524288" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.TechnicalInfo_management_IP_Info_carrierEquipmentType">
+                <form:propertySet xsi:type="et:TextPropertySet"/>
                 <form:label>CarrierEquipmentType</form:label>
                 <form:hint></form:hint>
                 <form:visible>true</form:visible>
                 <form:enabled>true</form:enabled>
                 <form:required>false</form:required>
               </form:control>
-              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_E16B0FjREei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=aggregation_Point?" syncFlags="524288" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.optionlist" controlType="com.tibco.forms.controls.optionlist" name="control.textarea451">
-                <form:propertySet xsi:type="et:MultiChoicePropertySet">
-                  <et:choiceType>bindings</et:choiceType>
-                </form:propertySet>
+              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_E16B0FjREei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=aggregation_Point?" syncFlags="524288" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textarea" controlType="com.tibco.forms.controls.textarea" name="control.textarea451">
+                <form:propertySet xsi:type="et:TextAreaPropertySet"/>
                 <form:label>Aggregation_Point</form:label>
                 <form:hint></form:hint>
                 <form:visible>true</form:visible>
                 <form:enabled>true</form:enabled>
                 <form:required>false</form:required>
               </form:control>
-              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_GnJV8FjREei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=port_Number?" syncFlags="524288" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.optionlist" controlType="com.tibco.forms.controls.optionlist" name="control.textarea456">
-                <form:propertySet xsi:type="et:MultiChoicePropertySet">
-                  <et:choiceType>bindings</et:choiceType>
-                </form:propertySet>
+              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_GnJV8FjREei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=port_Number?" syncFlags="524288" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textarea" controlType="com.tibco.forms.controls.textarea" name="control.textarea456">
+                <form:propertySet xsi:type="et:TextAreaPropertySet"/>
                 <form:label>Port_Number</form:label>
                 <form:hint></form:hint>
                 <form:visible>true</form:visible>
                 <form:enabled>true</form:enabled>
                 <form:required>false</form:required>
               </form:control>
-              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_S4czYI1yEei91pCMJTTl9w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=port_Type?" syncFlags="524288" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.optionlist" controlType="com.tibco.forms.controls.optionlist" name="control.TechnicalInfo_management_IP_Info_port_Type">
-                <form:propertySet xsi:type="et:MultiChoicePropertySet">
-                  <et:choiceType>bindings</et:choiceType>
-                </form:propertySet>
+              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_S4czYI1yEei91pCMJTTl9w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=port_Type?" syncFlags="524288" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.TechnicalInfo_management_IP_Info_port_Type">
+                <form:propertySet xsi:type="et:TextPropertySet"/>
                 <form:label>Port_Type</form:label>
                 <form:hint></form:hint>
                 <form:visible>true</form:visible>
                 <form:enabled>true</form:enabled>
                 <form:required>false</form:required>
               </form:control>
-              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_6i_OAGDHEeiKHe8PzgqrqQ?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=capacity?" syncFlags="589824" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.optionlist" controlType="com.tibco.forms.controls.optionlist" name="control.textinput84">
-                <form:propertySet xsi:type="et:MultiChoicePropertySet">
-                  <et:choiceType>bindings</et:choiceType>
-                </form:propertySet>
+              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_6i_OAGDHEeiKHe8PzgqrqQ?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=capacity?" syncFlags="589824" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.textinput84">
+                <form:propertySet xsi:type="et:TextPropertySet"/>
                 <form:label>Port Capacity</form:label>
                 <form:hint></form:hint>
                 <form:visible>true</form:visible>
                 <form:enabled>true</form:enabled>
                 <form:required>false</form:required>
               </form:control>
-              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_I2HH4FjREei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=comments?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.textarea453">
-                <form:propertySet xsi:type="et:TextPropertySet">
+              <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_I2HH4FjREei-YLtY71j4-A?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aManagement_IP_List%26n=comments?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textarea" controlType="com.tibco.forms.controls.textarea" name="control.textarea453">
+                <form:propertySet xsi:type="et:TextAreaPropertySet">
+                  <et:rows>10</et:rows>
+                  <et:cols>25</et:cols>
                   <et:maxLength>200</et:maxLength>
                 </form:propertySet>
                 <form:label>Comments</form:label>
@@ -3465,7 +3369,7 @@ result;</form:script>
               </form:propertySet>
               <form:label>Textinput 74</form:label>
               <form:hint></form:hint>
-              <form:visible>false</form:visible>
+              <form:visible>true</form:visible>
               <form:enabled>true</form:enabled>
               <form:required>false</form:required>
             </form:control>
@@ -3476,7 +3380,7 @@ result;</form:script>
               </form:propertySet>
               <form:label>Textinput 74</form:label>
               <form:hint></form:hint>
-              <form:visible>false</form:visible>
+              <form:visible>true</form:visible>
               <form:enabled>true</form:enabled>
               <form:required>false</form:required>
             </form:control>
@@ -6585,10 +6489,63 @@ result;</form:script>
         </form:propertySet>
         <form:label>Textinput 74</form:label>
         <form:hint></form:hint>
-        <form:visible>false</form:visible>
+        <form:visible>true</form:visible>
         <form:enabled>true</form:enabled>
         <form:required>false</form:required>
       </form:control>
+      <form:pane generated="true" generatorSource="com.sfc.fosImpl.swapTariff_pageflow.xpdl#_DP15YHiCEeiaDfAHZcigjg?p=com.sfc.fosImpl.swapTariff.v02%26s=Process%20Packages%26t=xpdl2%3aFormalParameter%26q=comsfcfosImplswapTariff_pageflow%3a%3acomsfcfosImplswapTariff_pageflowProcess%26n=OldServiceRequest?" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.vertical" dataType="uml:Class com.sfc.fosImpl.dataModel.bom#_tNB9IGrpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aClass%26q=com.sfc.fosImpl.dataModel%26n=ServiceRequest?" name="pane.OldServiceRequest" paneType="com.tibco.forms.panes.vertical">
+        <form:label>OldServiceRequest</form:label>
+        <form:hint></form:hint>
+        <form:visible>true</form:visible>
+        <form:enabled>true</form:enabled>
+        <form:defaults>
+          <form:labelProperties position="top"/>
+        </form:defaults>
+        <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_tNB9IWrpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aServiceRequest%26n=bandwidthupdown?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.OldServiceRequest_bandwidthupdown">
+          <form:propertySet xsi:type="et:TextPropertySet">
+            <et:displayLength>40</et:displayLength>
+            <et:maxLength>50</et:maxLength>
+          </form:propertySet>
+          <form:label>Bandwidth(up/down)</form:label>
+          <form:hint></form:hint>
+          <form:visible>true</form:visible>
+          <form:enabled>true</form:enabled>
+          <form:required>false</form:required>
+        </form:control>
+        <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_tNB9JGrpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aServiceRequest%26n=serviceType?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.OldServiceRequest_serviceType">
+          <form:propertySet xsi:type="et:TextPropertySet">
+            <et:displayLength>40</et:displayLength>
+            <et:maxLength>50</et:maxLength>
+          </form:propertySet>
+          <form:label>ServiceType</form:label>
+          <form:hint></form:hint>
+          <form:visible>true</form:visible>
+          <form:enabled>true</form:enabled>
+          <form:required>false</form:required>
+        </form:control>
+        <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_tNB9J2rpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aServiceRequest%26n=technology?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.OldServiceRequest_technology">
+          <form:propertySet xsi:type="et:TextPropertySet">
+            <et:displayLength>40</et:displayLength>
+            <et:maxLength>50</et:maxLength>
+          </form:propertySet>
+          <form:label>Technology</form:label>
+          <form:hint></form:hint>
+          <form:visible>true</form:visible>
+          <form:enabled>true</form:enabled>
+          <form:required>false</form:required>
+        </form:control>
+        <form:control generated="true" generatorSource="com.sfc.fosImpl.dataModel.bom#_tNB9KmrpEe2_19HObtlc-w?p=com.sfc.fosImpl.dataModel%26s=Business%20Objects%26t=uml%3aProperty%26q=com.sfc.fosImpl.dataModel%3a%3aServiceRequest%26n=serviceStatus?" elementType="form:ControlType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.controls.textinput" controlType="com.tibco.forms.controls.textinput" name="control.OldServiceRequest_serviceStatus">
+          <form:propertySet xsi:type="et:TextPropertySet">
+            <et:displayLength>40</et:displayLength>
+            <et:maxLength>50</et:maxLength>
+          </form:propertySet>
+          <form:label>ServiceStatus</form:label>
+          <form:hint></form:hint>
+          <form:visible>true</form:visible>
+          <form:enabled>true</form:enabled>
+          <form:required>false</form:required>
+        </form:control>
+      </form:pane>
     </form:pane>
   </form:pane>
   <form:pane gwt:toolbar="true" styleClass="toolbar" elementType="form:PaneType pathmap://FORMS_UI_ELEMENT_TYPES/UIElementTypes.library.elemtypes#com.tibco.forms.panes.horizontal" name="pane.toolbar" paneType="com.tibco.forms.panes.horizontal">
